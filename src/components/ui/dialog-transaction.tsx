@@ -24,7 +24,7 @@ export function TransactionDialog({
   title = "Transaction Successful!",
   description = "Your transaction has been submitted to the network.",
 }: TransactionDialogProps) {
-  const suivisionUrl = `https://suivision.xyz/txblock/${digest}?network=testnet`;
+  const suivisionUrl = `https://testnet.suivision.xyz/txblock/${digest}`;
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
